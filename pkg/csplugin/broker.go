@@ -413,7 +413,7 @@ func getUID(username string) (uint32, error) {
 	if err != nil {
 		return 0, err
 	}
-	uid, err := strconv.Atoi(u.Uid)
+	uid, err := strconv.ParseInt(u.Uid, 10, 32)
 	if err != nil {
 		return 0, err
 	}
@@ -428,7 +428,7 @@ func getGID(groupname string) (uint32, error) {
 	if err != nil {
 		return 0, err
 	}
-	gid, err := strconv.Atoi(g.Gid)
+	gid, err := strconv.ParseInt(g.Gid, 10, 32)
 	if err != nil {
 		return 0, err
 	}
