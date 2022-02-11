@@ -36,6 +36,7 @@ require (
 	github.com/hashicorp/go-plugin v1.4.2
 	github.com/hashicorp/go-version v1.2.1
 	github.com/influxdata/go-syslog/v3 v3.0.0
+	github.com/jackc/pgx/v4 v4.14.1
 	github.com/jszwec/csvutil v1.5.1
 	github.com/lib/pq v1.10.2
 	github.com/mattn/go-sqlite3 v1.14.8
@@ -103,7 +104,6 @@ require (
 	github.com/jackc/pgproto3/v2 v2.2.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b // indirect
 	github.com/jackc/pgtype v1.9.1 // indirect
-	github.com/jackc/pgx/v4 v4.14.1 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
